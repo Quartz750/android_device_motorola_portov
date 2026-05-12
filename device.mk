@@ -33,3 +33,19 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier \
     update_engine_sideload
+
+PRODUCT_PACKAGES_ENG += \
+    qcom_decrypt
+    qcom_decrypt_fbe
+
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.0
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    keymaster_ver=4.0
+
+PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.0-impl-mock \
+    fastbootd
+
+PRODUCT_SHIPPING_API_LEVEL := 35
