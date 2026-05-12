@@ -1,4 +1,6 @@
 [{
-    "repository": "android_device_motorola_portov"
-    "target_path": "adevice_motorola_portov"
+    "repository": "Quartz750/android_device_motorola_portov"
+    "target_path": "device_motorola_portov"
+    "remote": "github"
+    "branch": "main"
 }]
