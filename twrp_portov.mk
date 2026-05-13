@@ -16,7 +16,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/motorola/portov/device.mk)
 
 PRODUCT_DEVICE := portov
-PRODUCT_NAME := omni_portov
+PRODUCT_NAME := twrp_portov
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := portov
 PRODUCT_MANUFACTURER := motorola
