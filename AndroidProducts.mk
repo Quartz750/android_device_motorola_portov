@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_portov.mk
+    $(LOCAL_DIR)/twrp_portov.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_portov-userdebug
+    twrp_portov-userdebug
