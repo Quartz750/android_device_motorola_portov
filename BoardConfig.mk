@@ -42,9 +42,14 @@ TARGET_USES_VULKAN := true
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 4
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
-BOARD_KERNEL_IMAGE_NAME := Image
+BOARD_KERNEL_IMAGE_NAME := Kernel
 TARGET_KERNEL_CONFIG := portov_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/portov
+TARGET_NO_KERNEL := true
+
+# Board - prebuilt
+BOARD_PREBUILT_DTB := device/motorola/portov/prebuilt/kernel_dtb
+BOARD_INCLUDE_DTB_IN_BOOTING := true
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
