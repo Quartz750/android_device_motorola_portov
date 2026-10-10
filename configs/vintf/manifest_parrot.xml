@@ -1,0 +1,14 @@
+<manifest version="8.0" type="device" target-level="202404">
+    <hal format="aidl">
+        <name>android.hardware.gatekeeper</name>
+        <fqname>IGatekeeper/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.secure_element</name>
+        <fqname>ISecureElement/eSE1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.media.c2</name>
+        <fqname>IComponentStore/default</fqname>
+    </hal>
+</manifest>
