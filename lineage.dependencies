@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_device_motorola_portov-kernel",
+    "target_path": "device/motorola/portov-kernel"
+  },
+  {
+    "repository": "android_hardware_motorola",
+    "target_path": "hardware/motorola"
+  }
+]
