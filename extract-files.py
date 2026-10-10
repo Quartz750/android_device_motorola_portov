@@ -24,8 +24,7 @@ from extract_utils.main import (
 
 namespace_imports = [
     'device/motorola/portov',
-    'device/motorola/sm6450-common',
-    'vendor/motorola/sm6450-common',
+    'vendor/motorola/portov',
     'hardware/motorola',
     'hardware/qcom-caf/sm8450-6.6',
     'hardware/qcom-caf/wlan',
@@ -130,6 +129,9 @@ module = ExtractUtilsModule(
     add_generated_carriersettings=True,
 )
 
+module.add_proprietary_file('proprietary-files-fm.txt').add_copy_files_guard(
+    'TARGET_HAS_FM', 'true'
+)
 module.add_proprietary_file('proprietary-files-esim.txt').add_copy_files_guard(
     'TARGET_HAS_ESIM', 'true'
 )

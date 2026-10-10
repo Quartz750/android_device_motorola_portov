@@ -568,8 +568,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
-# Inherit from motorola sm6450-common blobs
-$(call inherit-product, vendor/motorola/sm6450-common/sm6450-common-vendor.mk)
-
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/portov/portov-vendor.mk)
