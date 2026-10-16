@@ -21,9 +21,7 @@ index a02431f..0f16503 100644
          <uses-library android:name="moto-telephony"/>
 -        <uses-library android:name="moto-ims-ext"/>
      </application>
--</manifest>
-\ No newline at end of file
-+</manifest>
+ </manifest>
 -- 
 2.43.0
 
