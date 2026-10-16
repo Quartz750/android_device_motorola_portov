@@ -36,9 +36,6 @@ TARGET_HAS_FM := true
 PRODUCT_PACKAGES += \
     FM2
 
-# eSIM
-TARGET_HAS_ESIM := true
-
 # Init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/init.recovery.touch.rc:recovery/root/init.recovery.touch.rc
@@ -224,16 +221,6 @@ PRODUCT_COPY_FILES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
-
-# Euicc
-ifeq ($(TARGET_HAS_ESIM),true)
-PRODUCT_PACKAGES += \
-    MotoEuicc
-
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
-
-endif
 
 # Fastboot
 PRODUCT_PACKAGES += \

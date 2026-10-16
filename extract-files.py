@@ -132,9 +132,6 @@ module = ExtractUtilsModule(
 module.add_proprietary_file('proprietary-files-fm.txt').add_copy_files_guard(
     'TARGET_HAS_FM', 'true'
 )
-module.add_proprietary_file('proprietary-files-esim.txt').add_copy_files_guard(
-    'TARGET_HAS_ESIM', 'true'
-)
 
 if __name__ == '__main__':
     utils = ExtractUtils.device(module)

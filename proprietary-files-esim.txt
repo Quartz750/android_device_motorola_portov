@@ -1,5 +1,0 @@
-# All unpinned blobs are extracted from the release mentioned in proprietary-files.txt
-
-# Euicc
-product/etc/permissions/privapp-permissions-com.google.android.euicc.xml
-product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
